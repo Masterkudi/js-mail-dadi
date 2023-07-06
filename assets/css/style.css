@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: slategrey;                                         
+}
+h1.title {
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.container {
+    width: 30rem;
+    min-height: 190px;
+    margin: 30px auto;
+    padding: 18px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.input-group {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+label {
+    margin: 1rem 2rem;
+    display: block;
+}
+
+.btn {
+    justify-content: center;
+}
+.input-email {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 4px;
+}
+.success {
+    color: green;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.fail {
+    color: red;
+    font-weight: 600;
+    font-size: 1rem;
+}
